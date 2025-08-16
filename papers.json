@@ -1,0 +1,476 @@
+{
+  "query": "UNet for medical image segmentation",
+  "timestamp": "2025-08-16T09:42:46.629Z",
+  "totalPapers": 39,
+  "papers": [
+    {
+      "id": "CrossRef-1755337343394-o77roehn8",
+      "title": "AFTer-UNet: Axial Fusion Transformer UNet for Medical Image Segmentation",
+      "authors": "Xiangyi Yan, Hao Tang, Shanlin Sun, Haoyu Ma, Deying Kong, Xiaohui Xie",
+      "venue": "2022 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)",
+      "year": 2022,
+      "url": "https://doi.org/10.1109/wacv51458.2022.00333",
+      "tldr": "",
+      "source": "CrossRef",
+      "citationCount": 118
+    },
+    {
+      "id": "CrossRef-1755337343394-h68cj91nf",
+      "title": "PDAtt-Unet: Pyramid Dual-Decoder Attention Unet for Covid-19 infection segmentation from CT-scans",
+      "authors": "Fares Bougourzi, Cosimo Distante, Fadi Dornaika, Abdelmalik Taleb-Ahmed",
+      "venue": "Medical Image Analysis",
+      "year": 2023,
+      "url": "https://doi.org/10.1016/j.media.2023.102797",
+      "tldr": "",
+      "source": "CrossRef",
+      "citationCount": 91
+    },
+    {
+      "id": "CrossRef-1755337343394-nvymqb0q9",
+      "title": "Improved UNet with Attention for Medical Image Segmentation",
+      "authors": "Ahmed AL Qurri, Mohamed Almekkawy",
+      "venue": "Sensors",
+      "year": 2023,
+      "url": "https://doi.org/10.3390/s23208589",
+      "tldr": "",
+      "source": "CrossRef",
+      "citationCount": 46
+    },
+    {
+      "id": "CrossRef-1755337343394-p2bp8axmr",
+      "title": "DEA-UNet: a dense-edge-attention UNet architecture for medical image segmentation",
+      "authors": "Zhenhuan Zeng, Chaodong Fan, Leyi Xiao, Xilong Qu",
+      "venue": "Journal of Electronic Imaging",
+      "year": 2022,
+      "url": "https://doi.org/10.1117/1.jei.31.4.043032",
+      "tldr": "",
+      "source": "CrossRef",
+      "citationCount": 12
+    },
+    {
+      "id": "CrossRef-1755337343394-rlsf0w9im",
+      "title": "MLFA-UNet: A multi-level feature assembly UNet for medical image segmentation",
+      "authors": "Anass Garbaz, Yassine Oukdach, Said Charfi, Mohamed El Ansari, Lahcen Koutti, Mouna Salihoun",
+      "venue": "Methods",
+      "year": 2024,
+      "url": "https://doi.org/10.1016/j.ymeth.2024.10.010",
+      "tldr": "",
+      "source": "CrossRef",
+      "citationCount": 5
+    },
+    {
+      "id": "CrossRef-1755337343394-hlsrun4jm",
+      "title": "TDC-Unet: Triple Unet with Dilated Convolution for Medical Image Segmentation",
+      "authors": "Song-Toan Tran, Thanh-Tuan Nguyen, Minh-Hai Le, Ching-Hwa Cheng, Don-Gey Liu",
+      "venue": "International Journal of Pharma Medicine and Biological Sciences",
+      "year": 2022,
+      "url": "https://doi.org/10.18178/ijpmbs.11.1.1-7",
+      "tldr": "",
+      "source": "CrossRef",
+      "citationCount": 5
+    },
+    {
+      "id": "CrossRef-1755337343394-c4wb0fscq",
+      "title": "LM-UNet: Lateral MLP Augmented U-Net for Medical Image Segmentation",
+      "authors": "Haitao Qiu, Cao Shi",
+      "venue": "Research Square Platform LLC",
+      "year": 2023,
+      "url": "https://doi.org/10.21203/rs.3.rs-3082767/v1",
+      "tldr": "",
+      "source": "CrossRef",
+      "citationCount": 1
+    },
+    {
+      "id": "arXiv-1755337343394-ifx9eoqfe",
+      "title": "KM-UNet KAN Mamba UNet for medical image segmentation",
+      "authors": "Yibo Zhang",
+      "venue": "arXiv",
+      "year": 2025,
+      "url": [
+        "http://arxiv.org/abs/2501.02559v1"
+      ],
+      "abstract": "Medical image segmentation is a critical task in medical imaging analysis. Traditional CNN-based methods struggle with modeling long-range dependencies, while Transformer-based models, despite their success, suffer from quadratic computational complexity. To address these limitations, we propose KM-UNet, a novel U-shaped network architecture that combines the strengths of Kolmogorov-Arnold Networks (KANs) and state-space models (SSMs). KM-UNet leverages the Kolmogorov-Arnold representation theorem for efficient feature representation and SSMs for scalable long-range modeling, achieving a balance between accuracy and computational efficiency. We evaluate KM-UNet on five benchmark datasets: ISIC17, ISIC18, CVC, BUSI, and GLAS. Experimental results demonstrate that KM-UNet achieves competitive performance compared to state-of-the-art methods in medical image segmentation tasks. To the best of our knowledge, KM-UNet is the first medical image segmentation framework integrating KANs and SSMs. This work provides a valuable baseline and new insights for the development of more efficient and interpretable medical image segmentation systems. The code is open source at https://github.com/2760613195/KM_UNet Keywords:KAN,Manba, state-space models,UNet, Medical image segmentation, Deep learning",
+      "tldr": "",
+      "source": "arXiv"
+    },
+    {
+      "id": "arXiv-1755337343394-nch0fkvoi",
+      "title": "MM-UNet: Meta Mamba UNet for Medical Image Segmentation",
+      "authors": "Bin Xie, Yan Yan, Gady Agam",
+      "venue": "arXiv",
+      "year": 2025,
+      "url": [
+        "http://arxiv.org/abs/2503.17540v1"
+      ],
+      "abstract": "State Space Models (SSMs) have recently demonstrated outstanding performance in long-sequence modeling, particularly in natural language processing. However, their direct application to medical image segmentation poses several challenges. SSMs, originally designed for 1D sequences, struggle with 3D spatial structures in medical images due to discontinuities introduced by flattening. Additionally, SSMs have difficulty fitting high-variance data, which is common in medical imaging. In this paper, we analyze the intrinsic limitations of SSMs in medical image segmentation and propose a unified U-shaped encoder-decoder architecture, Meta Mamba UNet (MM-UNet), designed to leverage the advantages of SSMs while mitigating their drawbacks. MM-UNet incorporates hybrid modules that integrate SSMs within residual connections, reducing variance and improving performance. Furthermore, we introduce a novel bi-directional scan order strategy to alleviate discontinuities when processing medical images. Extensive experiments on the AMOS2022 and Synapse datasets demonstrate the superiority of MM-UNet over state-of-the-art methods. MM-UNet achieves a Dice score of 91.0% on AMOS2022, surpassing nnUNet by 3.2%, and a Dice score of 87.1% on Synapse. These results confirm the effectiveness of integrating SSMs in medical image segmentation through architectural design optimizations.",
+      "tldr": "",
+      "source": "arXiv"
+    },
+    {
+      "id": "arXiv-1755337343394-aetwscxj4",
+      "title": "Advancing 3D Medical Image Segmentation: Unleashing the Potential of Planarian Neural Networks in Artificial Intelligence",
+      "authors": "Ziyuan Huang, Kevin Huggins, Srikar Bellur",
+      "venue": "arXiv",
+      "year": 2025,
+      "url": [
+        "http://arxiv.org/abs/2505.04664v1"
+      ],
+      "abstract": "Our study presents PNN-UNet as a method for constructing deep neural networks that replicate the planarian neural network (PNN) structure in the context of 3D medical image data. Planarians typically have a cerebral structure comprising two neural cords, where the cerebrum acts as a coordinator, and the neural cords serve slightly different purposes within the organism's neurological system. Accordingly, PNN-UNet comprises a Deep-UNet and a Wide-UNet as the nerve cords, with a densely connected autoencoder performing the role of the brain. This distinct architecture offers advantages over both monolithic (UNet) and modular networks (Ensemble-UNet). Our outcomes on a 3D MRI hippocampus dataset, with and without data augmentation, demonstrate that PNN-UNet outperforms the baseline UNet and several other UNet variants in image segmentation.",
+      "tldr": "",
+      "source": "arXiv"
+    },
+    {
+      "id": "arXiv-1755337343394-b4jwfd4o7",
+      "title": "Medical Image Segmentation Using Advanced Unet: VMSE-Unet and VM-Unet CBAM+",
+      "authors": "Sayandeep Kanrar, Raja Piyush, Qaiser Razi, Debanshi Chakraborty, Vikas Hassija, GSS Chalapathi",
+      "venue": "arXiv",
+      "year": 2025,
+      "url": [
+        "http://arxiv.org/abs/2507.00511v2"
+      ],
+      "abstract": "In this paper, we present the VMSE U-Net and VM-Unet CBAM+ model, two cutting-edge deep learning architectures designed to enhance medical image segmentation. Our approach integrates Squeeze-and-Excitation (SE) and Convolutional Block Attention Module (CBAM) techniques into the traditional VM U-Net framework, significantly improving segmentation accuracy, feature localization, and computational efficiency. Both models show superior performance compared to the baseline VM-Unet across multiple datasets. Notably, VMSEUnet achieves the highest accuracy, IoU, precision, and recall while maintaining low loss values. It also exhibits exceptional computational efficiency with faster inference times and lower memory usage on both GPU and CPU. Overall, the study suggests that the enhanced architecture VMSE-Unet is a valuable tool for medical image analysis. These findings highlight its potential for real-world clinical applications, emphasizing the importance of further research to optimize accuracy, robustness, and computational efficiency.",
+      "tldr": "",
+      "source": "arXiv"
+    },
+    {
+      "id": "arXiv-1755337343394-6gj34lw2h",
+      "title": "Hybridization of Attention UNet with Repeated Atrous Spatial Pyramid Pooling for Improved Brain Tumour Segmentation",
+      "authors": "Satyaki Roy Chowdhury, Golrokh Mirzaei",
+      "venue": "arXiv",
+      "year": 2025,
+      "url": [
+        "http://arxiv.org/abs/2501.13129v1"
+      ],
+      "abstract": "Brain tumors are highly heterogeneous in terms of their spatial and scaling characteristics, making tumor segmentation in medical images a difficult task that might result in wrong diagnosis and therapy. Automation of a task like tumor segmentation is expected to enhance objectivity, repeatability and at the same time reducing turn around time. Conventional convolutional neural networks (CNNs) exhibit sub-par performance as a result of their inability to accurately represent the range of tumor sizes and forms. Developing on that, UNets have been a commonly used solution for semantic segmentation, and it uses a downsampling-upsampling approach to segment tumors. This paper proposes a novel architecture that integrates Attention-UNet with repeated Atrous Spatial Pyramid Pooling (ASPP). ASPP effectively captures multi-scale contextual information through parallel atrous convolutions with varying dilation rates. This allows for efficient expansion of the receptive field while maintaining fine details. The attention provides the necessary context by incorporating local characteristics with their corresponding global dependencies. This integration significantly enhances semantic segmentation performance. Our approach demonstrates significant improvements over UNet, Attention UNet and Attention UNet with Spatial Pyramid Pooling allowing to set a new benchmark for tumor segmentation tasks.",
+      "tldr": "",
+      "source": "arXiv"
+    },
+    {
+      "id": "CrossRef-1755337343394-rvec0vi62",
+      "title": "ES-UNet: efficient 3D medical image segmentation with enhanced skip connections in 3D UNet",
+      "authors": "Minyoung Park, Seungtaek Oh, Junyoung Park, Taikyeong Jeong, Sungwook Yu",
+      "venue": "BMC Medical Imaging",
+      "year": 2025,
+      "url": "https://doi.org/10.1186/s12880-025-01857-0",
+      "tldr": "",
+      "source": "CrossRef",
+      "citationCount": 0
+    },
+    {
+      "id": "CrossRef-1755337343394-j4jej9dml",
+      "title": "Focal-Unet: Unet-like Focal Modulation for Medical Image Segmentation",
+      "authors": "Mohammadreza Naderi, MohammadHossein Givkashi, Fatemeh Piri, Behzad Mirmahboub, Nader Karimi, Shadrokh Samavi",
+      "venue": "2025 IEEE World AI IoT Congress (AIIoT)",
+      "year": 2025,
+      "url": "https://doi.org/10.1109/aiiot65859.2025.11105308",
+      "tldr": "",
+      "source": "CrossRef",
+      "citationCount": 0
+    },
+    {
+      "id": "CrossRef-1755337343394-opzkap2e7",
+      "title": "MRFAE-UNet: Multi-Receptive Field Attention-Enhanced UNet for Medical Image Segmentation",
+      "authors": "Yang Pu, Yuanbo Xing, Qingfeng Wu",
+      "venue": "2025 28th International Conference on Computer Supported Cooperative Work in Design (CSCWD)",
+      "year": 2025,
+      "url": "https://doi.org/10.1109/cscwd64889.2025.11033311",
+      "tldr": "",
+      "source": "CrossRef",
+      "citationCount": 0
+    },
+    {
+      "id": "CrossRef-1755337343394-r5s8mvueo",
+      "title": "Mcavm-Unet: Enhancing Key Region Focus and Feature Interaction in Vision Mamba for Medical Image Segmentation",
+      "authors": "Mingfeng Zhong, Zhidan Zhao",
+      "venue": "Elsevier BV",
+      "year": 2025,
+      "url": "https://doi.org/10.2139/ssrn.5312161",
+      "tldr": "",
+      "source": "CrossRef",
+      "citationCount": 0
+    },
+    {
+      "id": "CrossRef-1755337343394-n4z0jd2q7",
+      "title": "A Comparative Study of Medical Image Segmentation via ResNet-Driven UNet Architecture",
+      "authors": "Bei Xie",
+      "venue": "2025 2nd International Conference on Digital Image Processing and Computer Applications (DIPCA)",
+      "year": 2025,
+      "url": "https://doi.org/10.1109/dipca65051.2025.11042355",
+      "tldr": "",
+      "source": "CrossRef",
+      "citationCount": 0
+    },
+    {
+      "id": "CrossRef-1755337343394-tzc2162cf",
+      "title": "DAG-UNet: Dissimilarity-Aware Global Context Guided Lightweight UNet for Medical Image Segmentation",
+      "authors": "Ying He, Qianni Zhang, Marc E. Miquel",
+      "venue": "2025 IEEE 22nd International Symposium on Biomedical Imaging (ISBI)",
+      "year": 2025,
+      "url": "https://doi.org/10.1109/isbi60581.2025.10981004",
+      "tldr": "",
+      "source": "CrossRef",
+      "citationCount": 0
+    },
+    {
+      "id": "CrossRef-1755337343394-g0bg0qoyy",
+      "title": "MAFUNet: Mamba with adaptive fusion UNet for medical image segmentation",
+      "authors": "Minchen Yang, Ziyi Yang, Nur Intan Raihana Ruhaiyem",
+      "venue": "Image and Vision Computing",
+      "year": 2025,
+      "url": "https://doi.org/10.1016/j.imavis.2025.105655",
+      "tldr": "",
+      "source": "CrossRef",
+      "citationCount": 0
+    },
+    {
+      "id": "arXiv-1755337343394-6wz1g55r5",
+      "title": "TP-UNet: Temporal Prompt Guided UNet for Medical Image Segmentation",
+      "authors": "Ranmin Wang, Limin Zhuang, Hongkun Chen, Boyan Xu, Ruichu Cai",
+      "venue": "arXiv",
+      "year": 2024,
+      "url": [
+        "http://arxiv.org/abs/2411.11305v2"
+      ],
+      "abstract": "The advancement of medical image segmentation techniques has been propelled by the adoption of deep learning techniques, particularly UNet-based approaches, which exploit semantic information to improve the accuracy of segmentations. However, the order of organs in scanned images has been disregarded by current medical image segmentation approaches based on UNet. Furthermore, the inherent network structure of UNet does not provide direct capabilities for integrating temporal information. To efficiently integrate temporal information, we propose TP-UNet that utilizes temporal prompts, encompassing organ-construction relationships, to guide the segmentation UNet model. Specifically, our framework is featured with cross-attention and semantic alignment based on unsupervised contrastive learning to combine temporal prompts and image features effectively. Extensive evaluations on two medical image segmentation datasets demonstrate the state-of-the-art performance of TP-UNet. Our implementation will be open-sourced after acceptance.",
+      "tldr": "",
+      "source": "arXiv"
+    },
+    {
+      "id": "arXiv-1755337343394-g3hxiaoyo",
+      "title": "GCtx-UNet: Efficient Network for Medical Image Segmentation",
+      "authors": "Khaled Alrfou, Tian Zhao",
+      "venue": "arXiv",
+      "year": 2024,
+      "url": [
+        "http://arxiv.org/abs/2406.05891v1"
+      ],
+      "abstract": "Medical image segmentation is crucial for disease diagnosis and monitoring. Though effective, the current segmentation networks such as UNet struggle with capturing long-range features. More accurate models such as TransUNet, Swin-UNet, and CS-UNet have higher computation complexity. To address this problem, we propose GCtx-UNet, a lightweight segmentation architecture that can capture global and local image features with accuracy better or comparable to the state-of-the-art approaches. GCtx-UNet uses vision transformer that leverages global context self-attention modules joined with local self-attention to model long and short range spatial dependencies. GCtx-UNet is evaluated on the Synapse multi-organ abdominal CT dataset, the ACDC cardiac MRI dataset, and several polyp segmentation datasets. In terms of Dice Similarity Coefficient (DSC) and Hausdorff Distance (HD) metrics, GCtx-UNet outperformed CNN-based and Transformer-based approaches, with notable gains in the segmentation of complex and small anatomical structures. Moreover, GCtx-UNet is much more efficient than the state-of-the-art approaches with smaller model size, lower computation workload, and faster training and inference speed, making it a practical choice for clinical applications.",
+      "tldr": "",
+      "source": "arXiv"
+    },
+    {
+      "id": "arXiv-1755337343394-l96huo4w1",
+      "title": "Segmenting Medical Images: From UNet to Res-UNet and nnUNet",
+      "authors": "Lina Huang, Alina Miron, Kate Hone, Yongmin Li",
+      "venue": "arXiv",
+      "year": 2024,
+      "url": [
+        "http://arxiv.org/abs/2407.04353v1"
+      ],
+      "abstract": "This study provides a comparative analysis of deep learning models including UNet, Res-UNet, Attention Res-UNet, and nnUNet, and evaluates their performance in brain tumour, polyp, and multi-class heart segmentation tasks. The analysis focuses on precision, accuracy, recall, Dice Similarity Coefficient (DSC), and Intersection over Union (IoU) to assess their clinical applicability. In brain tumour segmentation, Res-UNet and nnUNet significantly outperformed UNet, with Res-UNet leading in DSC and IoU scores, indicating superior accuracy in tumour delineation. Meanwhile, nnUNet excelled in recall and accuracy, which are crucial for reliable tumour detection in clinical diagnosis and planning. In polyp detection, nnUNet was the most effective, achieving the highest metrics across all categories and proving itself as a reliable diagnostic tool in endoscopy. In the complex task of heart segmentation, Res-UNet and Attention Res-UNet were outstanding in delineating the left ventricle, with Res-UNet also leading in right ventricle segmentation. nnUNet was unmatched in myocardium segmentation, achieving top scores in precision, recall, DSC, and IoU. The conclusion notes that although Res-UNet occasionally outperforms nnUNet in specific metrics, the differences are quite small. Moreover, nnUNet consistently shows superior overall performance across the experiments. Particularly noted for its high recall and accuracy, which are crucial in clinical settings to minimize misdiagnosis and ensure timely treatment, nnUNet's robust performance in crucial metrics across all tested categories establishes it as the most effective model for these varied and complex segmentation tasks.",
+      "tldr": "",
+      "source": "arXiv"
+    },
+    {
+      "id": "arXiv-1755337343394-oulax0t0g",
+      "title": "xLSTM-UNet can be an Effective 2D & 3D Medical Image Segmentation Backbone with Vision-LSTM (ViL) better than its Mamba Counterpart",
+      "authors": "Tianrun Chen, Chaotao Ding, Lanyun Zhu, Tao Xu, Deyi Ji, Yan Wang, Ying Zang, Zejian Li",
+      "venue": "arXiv",
+      "year": 2024,
+      "url": [
+        "http://arxiv.org/abs/2407.01530v2"
+      ],
+      "abstract": "Convolutional Neural Networks (CNNs) and Vision Transformers (ViT) have been pivotal in biomedical image segmentation, yet their ability to manage long-range dependencies remains constrained by inherent locality and computational overhead. To overcome these challenges, in this technical report, we first propose xLSTM-UNet, a UNet structured deep learning neural network that leverages Vision-LSTM (xLSTM) as its backbone for medical image segmentation. xLSTM is a recently proposed as the successor of Long Short-Term Memory (LSTM) networks and have demonstrated superior performance compared to Transformers and State Space Models (SSMs) like Mamba in Neural Language Processing (NLP) and image classification (as demonstrated in Vision-LSTM, or ViL implementation). Here, xLSTM-UNet we designed extend the success in biomedical image segmentation domain. By integrating the local feature extraction strengths of convolutional layers with the long-range dependency capturing abilities of xLSTM, xLSTM-UNet offers a robust solution for comprehensive image analysis. We validate the efficacy of xLSTM-UNet through experiments. Our findings demonstrate that xLSTM-UNet consistently surpasses the performance of leading CNN-based, Transformer-based, and Mamba-based segmentation networks in multiple datasets in biomedical segmentation including organs in abdomen MRI, instruments in endoscopic images, and cells in microscopic images. With comprehensive experiments performed, this technical report highlights the potential of xLSTM-based architectures in advancing biomedical image analysis in both 2D and 3D. The code, models, and datasets are publicly available at http://tianrun-chen.github.io/xLSTM-UNet/",
+      "tldr": "",
+      "source": "arXiv"
+    },
+    {
+      "id": "arXiv-1755337343394-lxh94eyvf",
+      "title": "LightM-UNet: Mamba Assists in Lightweight UNet for Medical Image Segmentation",
+      "authors": "Weibin Liao, Yinghao Zhu, Xinyuan Wang, Chengwei Pan, Yasha Wang, Liantao Ma",
+      "venue": "arXiv",
+      "year": 2024,
+      "url": [
+        "http://arxiv.org/abs/2403.05246v2"
+      ],
+      "abstract": "UNet and its variants have been widely used in medical image segmentation. However, these models, especially those based on Transformer architectures, pose challenges due to their large number of parameters and computational loads, making them unsuitable for mobile health applications. Recently, State Space Models (SSMs), exemplified by Mamba, have emerged as competitive alternatives to CNN and Transformer architectures. Building upon this, we employ Mamba as a lightweight substitute for CNN and Transformer within UNet, aiming at tackling challenges stemming from computational resource limitations in real medical settings. To this end, we introduce the Lightweight Mamba UNet (LightM-UNet) that integrates Mamba and UNet in a lightweight framework. Specifically, LightM-UNet leverages the Residual Vision Mamba Layer in a pure Mamba fashion to extract deep semantic features and model long-range spatial dependencies, with linear computational complexity. Extensive experiments conducted on two real-world 2D/3D datasets demonstrate that LightM-UNet surpasses existing state-of-the-art literature. Notably, when compared to the renowned nnU-Net, LightM-UNet achieves superior segmentation performance while drastically reducing parameter and computation costs by 116x and 21x, respectively. This highlights the potential of Mamba in facilitating model lightweighting. Our code implementation is publicly available at https://github.com/MrBlankness/LightM-UNet.",
+      "tldr": "",
+      "source": "arXiv"
+    },
+    {
+      "id": "arXiv-1755337343394-k4t2ge3xi",
+      "title": "SelfReg-UNet: Self-Regularized UNet for Medical Image Segmentation",
+      "authors": "Wenhui Zhu, Xiwen Chen, Peijie Qiu, Mohammad Farazi, Aristeidis Sotiras, Abolfazl Razi, Yalin Wang",
+      "venue": "arXiv",
+      "year": 2024,
+      "url": [
+        "http://arxiv.org/abs/2406.14896v1"
+      ],
+      "abstract": "Since its introduction, UNet has been leading a variety of medical image segmentation tasks. Although numerous follow-up studies have also been dedicated to improving the performance of standard UNet, few have conducted in-depth analyses of the underlying interest pattern of UNet in medical image segmentation. In this paper, we explore the patterns learned in a UNet and observe two important factors that potentially affect its performance: (i) irrelative feature learned caused by asymmetric supervision; (ii) feature redundancy in the feature map. To this end, we propose to balance the supervision between encoder and decoder and reduce the redundant information in the UNet. Specifically, we use the feature map that contains the most semantic information (i.e., the last layer of the decoder) to provide additional supervision to other blocks to provide additional supervision and reduce feature redundancy by leveraging feature distillation. The proposed method can be easily integrated into existing UNet architecture in a plug-and-play fashion with negligible computational cost. The experimental results suggest that the proposed method consistently improves the performance of standard UNets on four medical image segmentation datasets. The code is available at \\url{https://github.com/ChongQingNoSubway/SelfReg-UNet}",
+      "tldr": "",
+      "source": "arXiv"
+    },
+    {
+      "id": "arXiv-1755337343394-al42yirzo",
+      "title": "TTT-Unet: Enhancing U-Net with Test-Time Training Layers for Biomedical Image Segmentation",
+      "authors": "Rong Zhou, Zhengqing Yuan, Zhiling Yan, Weixiang Sun, Kai Zhang, Yiwei Li, Yanfang Ye, Xiang Li, Lifang He, Lichao Sun",
+      "venue": "arXiv",
+      "year": 2024,
+      "url": [
+        "http://arxiv.org/abs/2409.11299v3"
+      ],
+      "abstract": "Biomedical image segmentation is crucial for accurately diagnosing and analyzing various diseases. However, Convolutional Neural Networks (CNNs) and Transformers, the most commonly used architectures for this task, struggle to effectively capture long-range dependencies due to the inherent locality of CNNs and the computational complexity of Transformers. To address this limitation, we introduce TTT-Unet, a novel framework that integrates Test-Time Training (TTT) layers into the traditional U-Net architecture for biomedical image segmentation. TTT-Unet dynamically adjusts model parameters during the testing time, enhancing the model's ability to capture both local and long-range features. We evaluate TTT-Unet on multiple medical imaging datasets, including 3D abdominal organ segmentation in CT and MR images, instrument segmentation in endoscopy images, and cell segmentation in microscopy images. The results demonstrate that TTT-Unet consistently outperforms state-of-the-art CNN-based and Transformer-based segmentation models across all tasks. The code is available at https://github.com/rongzhou7/TTT-Unet.",
+      "tldr": "",
+      "source": "arXiv"
+    },
+    {
+      "id": "CrossRef-1755337343394-khm1utoqv",
+      "title": "UNet and Transformers: Deep Learning Based Methods for Medical Image Segmentation",
+      "authors": "Zhirui Ren",
+      "venue": "Proceedings of the 1st International Conference on Data Science and Engineering",
+      "year": 2024,
+      "url": "https://doi.org/10.5220/0012838300004547",
+      "tldr": "",
+      "source": "CrossRef",
+      "citationCount": 0
+    },
+    {
+      "id": "CrossRef-1755337343394-djpd8jx13",
+      "title": "VM-UNet++: Advanced Nested Vision Mamba UNet for Precise Medical Image Segmentation",
+      "authors": "Yi Lei, Dong Yin",
+      "venue": "2024 International Conference on Image Processing, Computer Vision and Machine Learning (ICICML)",
+      "year": 2024,
+      "url": "https://doi.org/10.1109/icicml63543.2024.10957912",
+      "tldr": "",
+      "source": "CrossRef",
+      "citationCount": 0
+    },
+    {
+      "id": "CrossRef-1755337343394-6xk6xva0r",
+      "title": "Mflunet: Multi-Scale Fusion Light-Weight Unet for Medical Image Segmentation",
+      "authors": "Dianlei Cao, Rui Zhang, yunfeng zhang",
+      "venue": "Elsevier BV",
+      "year": 2024,
+      "url": "https://doi.org/10.2139/ssrn.4805570",
+      "tldr": "",
+      "source": "CrossRef",
+      "citationCount": 0
+    },
+    {
+      "id": "CrossRef-1755337343394-n03d1c44o",
+      "title": "MDS-UNet: Multi-Dimensional and Multi-Scale UNet for Medical Image Segmentation",
+      "authors": "Liheng Zhu, Shuqun Yang",
+      "venue": "2024 4th International Conference on Electronic Information Engineering and Computer Communication (EIECC)",
+      "year": 2024,
+      "url": "https://doi.org/10.1109/eiecc64539.2024.10929580",
+      "tldr": "",
+      "source": "CrossRef",
+      "citationCount": 0
+    },
+    {
+      "id": "arXiv-1755337343394-jti96djzr",
+      "title": "IP-UNet: Intensity Projection UNet Architecture for 3D Medical Volume Segmentation",
+      "authors": "Nyothiri Aung, Tahar Kechadi, Liming Chen, Sahraoui Dhelim",
+      "venue": "arXiv",
+      "year": 2023,
+      "url": [
+        "http://arxiv.org/abs/2308.12761v1"
+      ],
+      "abstract": "CNNs have been widely applied for medical image analysis. However, limited memory capacity is one of the most common drawbacks of processing high-resolution 3D volumetric data. 3D volumes are usually cropped or downsized first before processing, which can result in a loss of resolution, increase class imbalance, and affect the performance of the segmentation algorithms. In this paper, we propose an end-to-end deep learning approach called IP-UNet. IP-UNet is a UNet-based model that performs multi-class segmentation on Intensity Projection (IP) of 3D volumetric data instead of the memory-consuming 3D volumes. IP-UNet uses limited memory capability for training without losing the original 3D image resolution. We compare the performance of three models in terms of segmentation accuracy and computational cost: 1) Slice-by-slice 2D segmentation of the CT scan images using a conventional 2D UNet model. 2) IP-UNet that operates on data obtained by merging the extracted Maximum Intensity Projection (MIP), Closest Vessel Projection (CVP), and Average Intensity Projection (AvgIP) representations of the source 3D volumes, then applying the UNet model on the output IP images. 3) 3D-UNet model directly reads the 3D volumes constructed from a series of CT scan images and outputs the 3D volume of the predicted segmentation. We test the performance of these methods on 3D volumetric images for automatic breast calcification detection. Experimental results show that IP-Unet can achieve similar segmentation accuracy with 3D-Unet but with much better performance. It reduces the training time by 70\\% and memory consumption by 92\\%.",
+      "tldr": "",
+      "source": "arXiv"
+    },
+    {
+      "id": "arXiv-1755337343394-rvr4sphdn",
+      "title": "ACC-UNet: A Completely Convolutional UNet model for the 2020s",
+      "authors": "Nabil Ibtehaz, Daisuke Kihara",
+      "venue": "arXiv",
+      "year": 2023,
+      "url": [
+        "http://arxiv.org/abs/2308.13680v1"
+      ],
+      "abstract": "This decade is marked by the introduction of Vision Transformer, a radical paradigm shift in broad computer vision. A similar trend is followed in medical imaging, UNet, one of the most influential architectures, has been redesigned with transformers. Recently, the efficacy of convolutional models in vision is being reinvestigated by seminal works such as ConvNext, which elevates a ResNet to Swin Transformer level. Deriving inspiration from this, we aim to improve a purely convolutional UNet model so that it can be on par with the transformer-based models, e.g, Swin-Unet or UCTransNet. We examined several advantages of the transformer-based UNet models, primarily long-range dependencies and cross-level skip connections. We attempted to emulate them through convolution operations and thus propose, ACC-UNet, a completely convolutional UNet model that brings the best of both worlds, the inherent inductive biases of convnets with the design decisions of transformers. ACC-UNet was evaluated on 5 different medical image segmentation benchmarks and consistently outperformed convnets, transformers, and their hybrids. Notably, ACC-UNet outperforms state-of-the-art models Swin-Unet and UCTransNet by $2.64 \\pm 2.54\\%$ and $0.45 \\pm 1.61\\%$ in terms of dice score, respectively, while using a fraction of their parameters ($59.26\\%$ and $24.24\\%$). Our codes are available at https://github.com/kiharalab/ACC-UNet.",
+      "tldr": "",
+      "source": "arXiv"
+    },
+    {
+      "id": "arXiv-1755337343394-lcu302fx3",
+      "title": "Performance Analysis of UNet and Variants for Medical Image Segmentation",
+      "authors": "Walid Ehab, Yongmin Li",
+      "venue": "arXiv",
+      "year": 2023,
+      "url": [
+        "http://arxiv.org/abs/2309.13013v1"
+      ],
+      "abstract": "Medical imaging plays a crucial role in modern healthcare by providing non-invasive visualisation of internal structures and abnormalities, enabling early disease detection, accurate diagnosis, and treatment planning. This study aims to explore the application of deep learning models, particularly focusing on the UNet architecture and its variants, in medical image segmentation. We seek to evaluate the performance of these models across various challenging medical image segmentation tasks, addressing issues such as image normalization, resizing, architecture choices, loss function design, and hyperparameter tuning. The findings reveal that the standard UNet, when extended with a deep network layer, is a proficient medical image segmentation model, while the Res-UNet and Attention Res-UNet architectures demonstrate smoother convergence and superior performance, particularly when handling fine image details. The study also addresses the challenge of high class imbalance through careful preprocessing and loss function definitions. We anticipate that the results of this study will provide useful insights for researchers seeking to apply these models to new medical imaging problems and offer guidance and best practices for their implementation.",
+      "tldr": "",
+      "source": "arXiv"
+    },
+    {
+      "id": "arXiv-1755337343394-62zveqh4x",
+      "title": "UNet Architectures in Multiplanar Volumetric Segmentation -- Validated on Three Knee MRI Cohorts",
+      "authors": "Sandeep Singh Sengara, Christopher Meulengrachtb, Mikael Ploug Boesenb, Anders Føhrby Overgaardb, Henrik Gudbergsenb, Janus Damm Nybingb, Erik Bjørnager Dam",
+      "venue": "arXiv",
+      "year": 2022,
+      "url": [
+        "http://arxiv.org/abs/2203.08194v1"
+      ],
+      "abstract": "UNet has become the gold standard method for segmenting 2D medical images that any new method must be validated against. However, in recent years, several variations of the seminal UNet have been proposed with promising results. However, there is no clear consensus on the generalisability of these architectures, and UNet currently remains the methodological gold standard. The purpose of this study was to evaluate some of the most promising UNet-inspired architectures for 3D segmentation. For the segmentation of 3D scans, UNet-inspired methods are also dominant, but there is a larger variety across applications. By evaluating the architectures in a different dimensionality, embedded in a different method, and for a different task, we aimed to evaluate if any of these UNet-alternatives are promising as a new gold standard that generalizes even better than UNet. Specifically, we investigated the architectures as the central 2D segmentation core in the Multi-Planar Unet 3D segmentation method that previously demonstrated excellent generalization in the MICCAI Segmentation Decathlon. Generalisability can be demonstrated if a promising UNet-variant consistently outperforms UNet in this setting. For this purpose, we evaluated four architectures for cartilage segmentation from three different cohorts with knee MRIs.",
+      "tldr": "",
+      "source": "arXiv"
+    },
+    {
+      "id": "arXiv-1755337343394-w8qok3tsf",
+      "title": "UNet#: A UNet-like Redesigning Skip Connections for Medical Image Segmentation",
+      "authors": "Ledan Qian, Xiao Zhou, Yi Li, Zhongyi Hu",
+      "venue": "arXiv",
+      "year": 2022,
+      "url": [
+        "http://arxiv.org/abs/2205.11759v1"
+      ],
+      "abstract": "As an essential prerequisite for developing a medical intelligent assistant system, medical image segmentation has received extensive research and concentration from the neural network community. A series of UNet-like networks with encoder-decoder architecture has achieved extraordinary success, in which UNet2+ and UNet3+ redesign skip connections, respectively proposing dense skip connection and full-scale skip connection and dramatically improving compared with UNet in medical image segmentation. However, UNet2+ lacks sufficient information explored from the full scale, which will affect the learning of organs' location and boundary. Although UNet3+ can obtain the full-scale aggregation feature map, owing to the small number of neurons in the structure, it does not satisfy the segmentation of tiny objects when the number of samples is small. This paper proposes a novel network structure combining dense skip connections and full-scale skip connections, named UNet-sharp (UNet\\#) for its shape similar to symbol \\#. The proposed UNet\\# can aggregate feature maps of different scales in the decoder sub-network and capture fine-grained details and coarse-grained semantics from the full scale, which benefits learning the exact location and accurately segmenting the boundary of organs or lesions. We perform deep supervision for model pruning to speed up testing and make it possible for the model to run on mobile devices; furthermore, designing two classification-guided modules to reduce false positives achieves more accurate segmentation results. Various experiments of semantic segmentation and instance segmentation on different modalities (EM, CT, MRI) and dimensions (2D, 3D) datasets, including the nuclei, brain tumor, liver, and lung, demonstrate that the proposed method outperforms state-of-the-art models.",
+      "tldr": "",
+      "source": "arXiv"
+    },
+    {
+      "id": "arXiv-1755337343394-6x8txf3ww",
+      "title": "Transformer-Unet: Raw Image Processing with Unet",
+      "authors": "Youyang Sha, Yonghong Zhang, Xuquan Ji, Lei Hu",
+      "venue": "arXiv",
+      "year": 2021,
+      "url": [
+        "http://arxiv.org/abs/2109.08417v1"
+      ],
+      "abstract": "Medical image segmentation have drawn massive attention as it is important in biomedical image analysis. Good segmentation results can assist doctors with their judgement and further improve patients' experience. Among many available pipelines in medical image analysis, Unet is one of the most popular neural networks as it keeps raw features by adding concatenation between encoder and decoder, which makes it still widely used in industrial field. In the mean time, as a popular model which dominates natural language process tasks, transformer is now introduced to computer vision tasks and have seen promising results in object detection, image classification and semantic segmentation tasks. Therefore, the combination of transformer and Unet is supposed to be more efficient than both methods working individually. In this article, we propose Transformer-Unet by adding transformer modules in raw images instead of feature maps in Unet and test our network in CT82 datasets for Pancreas segmentation accordingly. We form an end-to-end network and gain segmentation results better than many previous Unet based algorithms in our experiment. We demonstrate our network and show our experimental results in this paper accordingly.",
+      "tldr": "",
+      "source": "arXiv"
+    },
+    {
+      "id": "arXiv-1755337343394-03sgi90b4",
+      "title": "Context Aware 3D UNet for Brain Tumor Segmentation",
+      "authors": "Parvez Ahmad, Saqib Qamar, Linlin Shen, Adnan Saeed",
+      "venue": "arXiv",
+      "year": 2020,
+      "url": [
+        "http://arxiv.org/abs/2010.13082v2"
+      ],
+      "abstract": "Deep convolutional neural network (CNN) achieves remarkable performance for medical image analysis. UNet is the primary source in the performance of 3D CNN architectures for medical imaging tasks, including brain tumor segmentation. The skip connection in the UNet architecture concatenates features from both encoder and decoder paths to extract multi-contextual information from image data. The multi-scaled features play an essential role in brain tumor segmentation. However, the limited use of features can degrade the performance of the UNet approach for segmentation. In this paper, we propose a modified UNet architecture for brain tumor segmentation. In the proposed architecture, we used densely connected blocks in both encoder and decoder paths to extract multi-contextual information from the concept of feature reusability. In addition, residual-inception blocks (RIB) are used to extract the local and global information by merging features of different kernel sizes. We validate the proposed architecture on the multi-modal brain tumor segmentation challenge (BRATS) 2020 testing dataset. The dice (DSC) scores of the whole tumor (WT), tumor core (TC), and enhancing tumor (ET) are 89.12%, 84.74%, and 79.12%, respectively.",
+      "tldr": "",
+      "source": "arXiv"
+    },
+    {
+      "id": "arXiv-1755337343394-7mlssyzu9",
+      "title": "The Domain Shift Problem of Medical Image Segmentation and Vendor-Adaptation by Unet-GAN",
+      "authors": "Wenjun Yan, Yuanyuan Wang, Shengjia Gu, Lu Huang, Fuhua Yan, Liming Xia, Qian Tao",
+      "venue": "arXiv",
+      "year": 2019,
+      "url": [
+        "http://arxiv.org/abs/1910.13681v1"
+      ],
+      "abstract": "Convolutional neural network (CNN), in particular the Unet, is a powerful method for medical image segmentation. To date Unet has demonstrated state-of-art performance in many complex medical image segmentation tasks, especially under the condition when the training and testing data share the same distribution (i.e. come from the same source domain). However, in clinical practice, medical images are acquired from different vendors and centers. The performance of a U-Net trained from a particular source domain, when transferred to a different target domain (e.g. different vendor, acquisition parameter), can drop unexpectedly. Collecting a large amount of annotation from each new domain to retrain the U-Net is expensive, tedious, and practically impossible. In this work, we proposed a generic framework to address this problem, consisting of (1) an unpaired generative adversarial network (GAN) for vendor-adaptation, and (2) a Unet for object segmentation. In the proposed Unet-GAN architecture, GAN learns from Unet at the feature level that is segmentation-specific. We used cardiac cine MRI as the example, with three major vendors (Philips, Siemens, and GE) as three domains, while the methodology can be extended to medical images segmentation in general. The proposed method showed significant improvement of the segmentation results across vendors. The proposed Unet-GAN provides an annotation-free solution to the cross-vendor medical image segmentation problem, potentially extending a trained deep learning model to multi-center and multi-vendor use in real clinical scenario.",
+      "tldr": "",
+      "source": "arXiv"
+    },
+    {
+      "id": "CrossRef-1755337343394-p4afbuetn",
+      "title": "Unknown title",
+      "authors": "Unknown",
+      "venue": "SPIE-Intl Soc Optical Eng",
+      "year": "Unknown",
+      "url": "https://doi.org/10.1117/12.2582338.6230239364001",
+      "tldr": "",
+      "source": "CrossRef",
+      "citationCount": 0
+    }
+  ]
+}
